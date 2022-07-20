@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Customer Registration</title>
+    </head>
+    <body>
+        <form align="center">
+            <h1 align="center">Customer Registration</h1>
+            <label>User Name:</label>
+            <input type="text" autofocus pattern="[A-Za-z]" maxlength="15">
+            <br/><br/>
+            <label>Password:</label>
+            <input type="password" pattern="[A-Za-z0-9]" maxlength="12" minlength="8">
+            <br/><br/>
+            <label>Email</label>
+            <input type="email">
+            <br/><br/>
+            <label>Gender</label>
+            <input type="radio" name="Gender" value="Male">
+            <label>Male</label>
+            <input type="radio" name="Gender" value="Female">
+            <label>Female</label>
+            <input type="radio" name="Gender" value="Other">
+            <label>Other</label>
+            <br/><br/>
+            <label>Age(Yrs):</label>
+            <input type="number" max="60" min="12">
+            <br/><br/>
+            <label>Address:</label>
+            <textarea rows="5" cols="15"></textarea>
+            <br/><br/>
+            <label>Choose country:</label>
+            <select>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="USA">USA</option>
+                <option value="Africa">Africa</option>
+            </select>
+            <br><br>
+            <input type="submit" name="Submit" value="Submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>
