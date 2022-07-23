@@ -4,40 +4,36 @@
     </head>
     <body>
         <fieldset>
-        <form >
+        <form align="center" >
         <h1 align="center">Dine Booking</h1>
         <label>Visitor Name:</label>
         <input type="text" autofocus maxlength="20">
-        <br/>
+        <br/><br/>
         <label>Number of members:</label>
         <input type="number" max="99" >
-        <br/>
+        <br/><br/>
         <label>Contact No:</label>
-        <input type="number">
-        <br/>
+        <input type="number" pattern="[0-9]">
+        <br/><br/>
         <label>Email:</label>
         <input type="email">
-        <br/>
-        <label>Type of Food</label>
-        <label>South Indian
+        <br/><br/>
+        <label>Type of Food:</label>
         <input  type="checkbox" checked="checked">
-        </label>
-        <label>North Indian
+        <label>South Indian</label>
         <input  type="checkbox">
-        </label>
-        <label>Chinese
+        <label>North Indian</label>
         <input  type="checkbox">
-        </label>
-        <label>Western
+        <label>Chinese</label>
         <input  type="checkbox">
-        </label>
-        <br/>
+        <label>Western</label>
+        <br/><br/>
         <label>Room Status</label>
         <input type="radio" name="Room" checked="checked">
         <label>AC</label>
         <input type="radio" name="Room">
         <label>Non-AC</label>
-        <br/>
+        <br/><br/>
         <label>Venue Preference:</label>
         <select>
             <option value="0">--SELECT--</option>
@@ -45,7 +41,7 @@
             <option value="2">CPT</option>
             <option value="3">Vijayawada</option>
         </select>
-        <br/>
+        <br/><br/>
         <input type="submit" name="Book" value="Book">
         <input type="reset" value="clear">
     </form>
