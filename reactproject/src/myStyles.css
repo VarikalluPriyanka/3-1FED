@@ -35,8 +35,7 @@
 }
 
 .nav-menu {
-  overflow: hidden;
-  background-color: black;
+  float: right;
 }
 
 .nav-menu ul {
@@ -49,32 +48,20 @@
 }
 
 .nav-menu ul li a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  color: #cfd2d6;
   text-decoration: none;
-  font-size: 17px;
 }
 
 .nav-menu ul li a:hover {
-  color: red;
+  color: #27bcda;
 }
-.nav-menu input[type="text"] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
 .article {
   padding: 0 15px;
   width: 900px;
   max-width: 60%;
   background: transparent !important;
   margin: 0 15px 0 0;
+  border-radius: 10px solid black;
 }
 .article h1 {
   margin-top: 0;
@@ -86,17 +73,21 @@
 }
 
 .aside {
-  top: 120px;
-
-  background: royalblue;
-  position: fixed;
-  top: 50;
+  top: 12px;
+  background-image: linear-gradient(rgb(188, 179, 179),rgb(84, 81, 81));
+  padding: 70px 30px;
+  overflow: auto;
+ margin-bottom: 100px;
+  float: right;
   left: 100;
-  right: 0;
-  width: 225px;
-  height: 100%;
-  margin-left: 1280px;
-  transition: all 0.5s ease;
+  width: 170px;
+  height: 284px;
+  border-width: 13px;
+  border-style: solid;
+  border-color: rgba(79, 75, 75, 0.07);
+  border-radius: 5px;
+  border-width: 5px;
+
 }
 .aside .menu ul li a {
   font-family: "Open Sans", sans-serif;
@@ -146,7 +137,6 @@ aside {
   padding-left: 20%;
 }
 .mycontainer {
-  border-width: 3px;
   width: 120%;
   height: 450px;
   padding-right: 190px;
@@ -159,6 +149,7 @@ aside {
   overflow-x: scroll;
   overflow-y: scroll;
   background-color: rgb(250, 240, 230);
+  
 }
 span {
   color: royalblue;
@@ -182,4 +173,15 @@ span {
 }
 .btn2{
   margin-left: 20px;
+}
+.cod{
+  margin-right: 800px;
+  color:cadetblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+pre{
+  margin-right: 600px;
+}
+.theory{
+  color:rgb(158, 88, 132);
 }
